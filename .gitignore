@@ -1,0 +1,24 @@
+# Secrets: never commit keys or encrypted data
+*.pem
+*.key
+*.svlt
+keys/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
